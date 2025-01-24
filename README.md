@@ -13,3 +13,16 @@ In the first bootcamp, we will create a basic information form and add style for
 3. **Apply Styling with CSS:** Add CSS to style the form, improving its visual appeal and usability. Use properties like padding, margins, colors, and box shadows to create a clean, user-friendly design.
 
 <img src="form.png" alt="form2" style="zoom: 50%;" />
+
+# 25.01.29 Exercise2
+
+The second bootcamp will focus on JavaScript techniques, including event handling, DOM manipulation, and basic validation patterns.
+
+This exercise focuses on creating a web form with client-side validation using JavaScript. The form includes fields such as first name, last name, email, phone number, a message textarea, and age group checkboxes. 
+
+The validation script ensures that all required fields are completed before submission, providing dynamic feedback for invalid inputs. It highlights errors by displaying warning messages next to the fields and applying a visual indicator (e.g., a red border). 
+
+The validation logic prevents form submission until all requirements are met, ensuring data integrity and improving user experience. 
+
+<img src="AGV_vUd5DCQCKGycU4wrs00t32vorap9uLJpG6oT0AWf6bG8ICfAsnnI9zSghBLFPdsjzuKl2RFhktOWZ5Bc_zeYfdUGgD-bTFflH-I59C0hmCwQaNADf0viTO30qntbuDrsyB4N0lgaMLWlvFMf1EVV8K4=s2048.png" alt="img" style="zoom:50%;" />
+

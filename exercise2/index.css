@@ -1,5 +1,5 @@
 body {
-  background-color: #53c3bf;
+  background-color: #3AAFab;
   color: #f2f2f2;
   padding: 50px 0;
   font: normal 18px/1.5 "Fras Sans", "Helvetica Neue", sans-serif;
@@ -11,31 +11,32 @@ body {
   margin: 0 auto;
 }
 
-/* targets all elements */
-.container * {   
+.container * {
   box-sizing: border-box;
 }
 
-/* the entire form */
 .flex-outer {
   max-width: 800px;
   margin: 0 auto;
 }
 
-/* select elements with either the class flex-outer or the class flex-inner */
 .flex-outer, .flex-inner {
   list-style-type: none;
   padding: 0;
 }
 
-/* select li elements within flex-outer and flex-inner */
+.input-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%; /* Ensures it takes full width */
+}
+
 .flex-outer li, .flex-inner {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
 }
 
-/* select all lables and p */
 .flex-outer li label, .flex-outer li p {
   text-transform: uppercase;
   letter-spacing: .09em;
@@ -53,13 +54,11 @@ body {
   flex: 1 0 220px
 }
 
-/* exclude the last element */
 .flex-outer > li:not(:last-child) {
   margin-bottom: 20px;
 }
 
-/* exclude the check box */
-.flex-outer > li > input:not([type='checkbox']), .flex-outer li textarea {
+.flex-outer > li > div > input:not([type='checkbox']), .flex-outer li textarea {
   padding: 15px;
   border: none;
 }
@@ -68,7 +67,6 @@ body {
   justify-content: space-between;
 }
 
-/* the button */
 .flex-outer button {
   margin-left: auto;
   background-color: #333;
@@ -78,4 +76,14 @@ body {
   padding: 8px 16px;
   letter-spacing: .09em;
   text-transform: uppercase;
+}
+
+.warning-message {
+  color: #e63946;
+  font-size: 0.8em;
+  margin-top: 5px;
+}
+
+.invalid {
+  border: 2px solid #e63946 !important;
 }
