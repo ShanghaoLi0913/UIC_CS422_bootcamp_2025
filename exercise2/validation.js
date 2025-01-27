@@ -1,4 +1,3 @@
-
 // What does DOMContentLoaded Do?
 // The DOMContentLoaded event is a special event that triggers when the HTML document has been completely loaded and parsed by the browser. 
 // This means:
