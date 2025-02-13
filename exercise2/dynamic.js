@@ -1,4 +1,4 @@
-// global variable setup:  🌟 what is global variable??
+// global variable setup:  
 // Gets a reference to the elements with ID 'formfield' from the HTML
 // This is where all input fields are contained
 let formfield = document.getElementById('formfield');
@@ -11,7 +11,7 @@ function add(){
   newField.setAttribute('class','text'); // add the 'text' css class
   newField.setAttribute('size',50); // set the width into 50
   newField.setAttribute('placeholder','Optional Field'); // add placeholder text 
-  formfield.appendChild(newField); // add the new input field to the form using appendChild() 🌟 explain this!
+  formfield.appendChild(newField); // add the new input field to the form using appendChild() 
 }
 
 // remove function: Gets all <input> elements inside the formfield and check if it needed to be delete
@@ -21,3 +21,4 @@ function remove(){
     formfield.removeChild(input_tags[(input_tags.length) - 1]);
   }
 }
+

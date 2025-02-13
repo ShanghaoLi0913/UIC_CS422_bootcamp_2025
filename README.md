@@ -33,3 +33,13 @@ The validation logic prevents form submission until all requirements are met, en
 The exercise features a simple form with default fields for Name, Email, and an Optional field, along with Add and Remove buttons. When clicking Add, JavaScript creates a new input field, and Remove deletes the last optional field while preserving the essential Name and Email fields.
 
 <img src="image-20250127150950826.png" alt="image-20250127150950826" style="zoom:67%;" />
+
+
+
+## [25.2.19] Exercise 3
+
+In this last bootcamp, we will use react to create a **List App**.
+
+The **List App** provides a simple and intuitive interface for managing lists efficiently. Users can add new items, adjust quantities with increment and decrement buttons, and mark items as complete with a single click. The app dynamically updates the total count of all items, ensuring real-time tracking of the list's contents. These functions make it easy to create and manage lists for various purposes, whether tracking tasks, inventories, or other list-based activities.
+
+<img src="AGV_vUd04I3NVpzBpAj5vBpROhzWD7UXXYCbLDZ626erKFqFEXmvm-xG5RXhlRdu08EohFS_R81m4bXL7MJoZusi0WwOAdFV549AlAQvnNL8dKw7zk4yIRpczbD1MT_V4wZe4j4l7IiNPHuck39w9bSeK8g=s2048.png" alt="img" style="zoom:50%;" />
